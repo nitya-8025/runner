@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desai Nitya | Flutter & Mobile Application Developer</title>
+  <meta name="description" content="Portfolio of Desai Nitya - Flutter Developer specializing in cross-platform Android & iOS applications, BLoC architecture, Firebase, and App Store / Google Play publishing.">
+  <meta name="keywords" content="Desai Nitya, Flutter Developer, StarFomo, Mobile App Developer, Dart, BLoC, Android, iOS, Firebase, App Store, Google Play">
+  <meta name="author" content="Desai Nitya">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Desai Nitya | Flutter & Mobile Developer Portfolio">
+  <meta property="og:description" content="Explore StarFomo - Cross-platform mobile app built with Flutter, Dart, BLoC, and Firebase published on Apple App Store & Google Play.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Desai Nitya - Flutter Engineer">
+        <div class="brand-emblem">
+          <span class="emblem-initials">ND</span>
+          <span class="emblem-dot"></span>
+        </div>
+        <div class="brand-titles">
+          <span class="brand-name">Desai <span class="brand-gradient">Nitya</span></span>
+          <span class="brand-tagline"><i class="fa-brands fa-flutter"></i> Mobile Engineer</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link"><i class="fa-solid fa-user-astronaut"></i> About</a></li>
+          <li><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+          <li><a href="#projects" class="nav-link"><i class="fa-solid fa-mobile-screen-button"></i> Featured Project</a></li>
+          <li><a href="#experience" class="nav-link"><i class="fa-solid fa-briefcase"></i> Experience</a></li>
+          <li><a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+          <li><a href="#contact" class="nav-link"><i class="fa-solid fa-paper-plane"></i> Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-outline-nav">
+          <span>Let's Talk</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span>Available for Mobile Dev Roles & Opportunities</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient">Desai Nitya</span>
+            <span class="sub-role">Flutter & Mobile Application Developer</span>
+          </h1>
+
+          <p class="hero-description">
+            Passionate cross-platform mobile engineer with hands-on experience crafting high-performance <strong>Android & iOS</strong> applications using <strong>Flutter, Dart, and BLoC</strong>. Specialized in <strong>Firebase cloud backends</strong>, scalable clean architecture, Google Mobile Ads (AdMob), and deploying production-ready applications to the <strong>Apple App Store & Google Play Store</strong>.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-layer-group"></i>
+              <span>View StarFomo Project</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Get In Touch</span>
+            </a>
+            <a href="mailto:desainitya8@gmail.com" class="btn btn-icon" title="Email Desai Nitya" aria-label="Send Email">
+              <i class="fa-solid fa-at"></i>
+            </a>
+            <a href="tel:+919313146671" class="btn btn-icon" title="Call Desai Nitya" aria-label="Call Phone">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+          </div>
+
+          <div class="tech-pills-strip">
+            <span class="strip-label">Core Stack:</span>
+            <div class="pill"><i class="fa-brands fa-flutter"></i> Flutter</div>
+            <div class="pill"><i class="fa-solid fa-code"></i> Dart</div>
+            <div class="pill"><i class="fa-solid fa-cubes"></i> BLoC Pattern</div>
+            <div class="pill"><i class="fa-solid fa-fire"></i> Firebase</div>
+            <div class="pill"><i class="fa-brands fa-apple"></i> iOS</div>
+            <div class="pill"><i class="fa-brands fa-android"></i> Android</div>
+          </div>
+        </div>
+
+        <!-- Hero Visual / Floating Code & App Mockup -->
+        <div class="hero-visual">
+          <div class="floating-tech-card main-card">
+            <div class="card-header-bar">
+              <div class="dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="file-tab"><i class="fa-brands fa-flutter"></i> starfomo_bloc.dart</span>
+            </div>
+            <div class="code-body">
+              <pre><code><span class="code-kw">class</span> <span class="code-cls">StarFomoBloc</span> <span class="code-kw">extends</span> <span class="code-cls">Bloc</span>&lt;<span class="code-cls">FomoEvent</span>, <span class="code-cls">FomoState</span>&gt; {
+  <span class="code-cls">StarFomoBloc</span>() : <span class="code-kw">super</span>(<span class="code-cls">FomoInitial</span>()) {
+    on&lt;<span class="code-cls">FetchRealtimeFeed</span>&gt;((event, emit) <span class="code-kw">async</span> {
+      emit(<span class="code-cls">FomoLoading</span>());
+      <span class="code-cmt">// Cloud Firestore & FCM push sync</span>
+      <span class="code-kw">await</span> <span class="code-func">syncFirestoreWithFCM</span>();
+      emit(<span class="code-cls">FomoLoaded</span>(
+        platforms: [<span class="code-str">'App Store'</span>, <span class="code-str">'Google Play'</span>],
+        architecture: <span class="code-str">'BLoC Pattern'</span>,
+      ));
+    });
+  }
+}</code></pre>
+            </div>
+          </div>
+
+          <!-- Floating Badges -->
+          <div class="floating-badge badge-top-right">
+            <div class="badge-icon"><i class="fa-brands fa-app-store-ios"></i></div>
+            <div class="badge-text">
+              <span class="badge-val">App Store</span>
+              <span class="badge-sub">Live Deployment</span>
+            </div>
+          </div>
+
+          <div class="floating-badge badge-bottom-left">
+            <div class="badge-icon"><i class="fa-brands fa-google-play"></i></div>
+            <div class="badge-text">
+              <span class="badge-val">Google Play</span>
+              <span class="badge-sub">Published Release</span>
+            </div>
+          </div>
+
+          <div class="floating-badge badge-bottom-right">
+            <div class="badge-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="badge-text">
+              <span class="badge-val">BLoC Architecture</span>
+              <span class="badge-sub">Clean & Scalable</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- METRICS & HIGHLIGHTS -->
+    <section class="metrics-strip">
+      <div class="container metrics-grid">
+        <div class="metric-item">
+          <div class="metric-icon"><i class="fa-solid fa-rocket"></i></div>
+          <div class="metric-data">
+            <h3>StarFomo</h3>
+            <p>Production App Release</p>
+          </div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+          <div class="metric-data">
+            <h3>Dual</h3>
+            <p>App Store & Play Store</p>
+          </div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-icon"><i class="fa-solid fa-calendar-check"></i></div>
+          <div class="metric-data">
+            <h3>6 Mos</h3>
+            <p>Internship Experience</p>
+          </div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-icon"><i class="fa-solid fa-bolt"></i></div>
+          <div class="metric-data">
+            <h3>100%</h3>
+            <p>Clean & Maintainable Code</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-user"></i> Overview</span>
+          <h2 class="section-title">About <span class="text-gradient">Desai Nitya</span></h2>
+          <p class="section-subtitle">A focused Flutter developer delivering seamless user experiences across mobile platforms.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-info-card">
+            <div class="about-avatar-wrapper">
+              <div class="avatar-glow"></div>
+              <div class="avatar-box">
+                <span class="avatar-initials">ND</span>
+                <span class="avatar-badge"><i class="fa-brands fa-flutter"></i></span>
+              </div>
+            </div>
+            <h3>Desai Nitya</h3>
+            <p class="role-sub">Flutter & Cross-Platform Mobile Engineer</p>
+            
+            <div class="quick-contact-pills">
+              <button class="contact-pill copy-btn" data-copy="desainitya8@gmail.com" title="Click to copy email">
+                <i class="fa-solid fa-envelope"></i>
+                <span>desainitya8@gmail.com</span>
+                <i class="fa-regular fa-copy copy-icon"></i>
+              </button>
+              <button class="contact-pill copy-btn" data-copy="+919313146671" title="Click to copy phone">
+                <i class="fa-solid fa-phone"></i>
+                <span>+91 9313146671</span>
+                <i class="fa-regular fa-copy copy-icon"></i>
+              </button>
+              <div class="contact-pill static-pill">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Gujarat, India</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card details-card">
+            <h4>Engineering Philosophy & Core Competencies</h4>
+            <p class="about-text">
+              I am a Flutter Developer with hands-on experience delivering cross-platform Android & iOS applications using <strong>Flutter, Dart, and BLoC</strong>. Proficient in <strong>Firebase (Firestore, FCM, Analytics, Crashlytics)</strong>, Google AdMob, REST APIs, background services, offline storage, and app deployment through the <strong>Apple App Store</strong> and <strong>Google Play Store</strong>.
+            </p>
+            <p class="about-text">
+              Passionate about building scalable, high-performance mobile applications with clean, maintainable code, predictable state flows, and responsive UI/UX.
+            </p>
+
+            <div class="qualities-grid">
+              <div class="quality-box">
+                <div class="q-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                <div>
+                  <h5>BLoC State Architecture</h5>
+                  <p>Predictable and decoupled state flow for reactive UI</p>
+                </div>
+              </div>
+              <div class="quality-box">
+                <div class="q-icon"><i class="fa-solid fa-cloud-bolt"></i></div>
+                <div>
+                  <h5>Firebase Cloud Stack</h5>
+                  <p>Firestore, FCM push notifications, Analytics & Crashlytics</p>
+                </div>
+              </div>
+              <div class="quality-box">
+                <div class="q-icon"><i class="fa-brands fa-app-store"></i></div>
+                <div>
+                  <h5>Store Publishing</h5>
+                  <p>App Store Connect, TestFlight & Google Play releases</p>
+                </div>
+              </div>
+              <div class="quality-box">
+                <div class="q-icon"><i class="fa-solid fa-rectangle-ad"></i></div>
+                <div>
+                  <h5>Monetization & Ads</h5>
+                  <p>Google Mobile Ads (AdMob) integration</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="languages-and-soft">
+              <div class="lang-group">
+                <span class="sub-label"><i class="fa-solid fa-language"></i> Spoken Languages:</span>
+                <div class="tags-wrapper">
+                  <span class="tag">English</span>
+                  <span class="tag">Hindi</span>
+                  <span class="tag">Gujarati</span>
+                </div>
+              </div>
+              <div class="lang-group">
+                <span class="sub-label"><i class="fa-solid fa-users"></i> Soft Skills:</span>
+                <div class="tags-wrapper">
+                  <span class="tag accent-tag">Teamwork</span>
+                  <span class="tag accent-tag">Time Management</span>
+                  <span class="tag accent-tag">Problem Solving</span>
+                  <span class="tag accent-tag">Agile Collaboration</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills-section section-padding" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-microchip"></i> Capabilities</span>
+          <h2 class="section-title">Technical <span class="text-gradient">Skills & Tools</span></h2>
+          <p class="section-subtitle">Comprehensive toolkit and technologies I leverage to build robust mobile products.</p>
+        </div>
+
+        <!-- Skills Filter Tabs -->
+        <div class="skills-filter-container">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="mobile">Mobile & Flutter</button>
+          <button class="filter-btn" data-filter="backend">Firebase & APIs</button>
+          <button class="filter-btn" data-filter="deploy">Store & Deployment</button>
+          <button class="filter-btn" data-filter="tools">Dev Tools</button>
+        </div>
+
+        <div class="skills-matrix">
+          <!-- Mobile & Core -->
+          <div class="skill-category-card" data-category="mobile">
+            <div class="cat-header">
+              <i class="fa-solid fa-mobile-screen"></i>
+              <h3>Mobile Development</h3>
+            </div>
+            <div class="skill-chips">
+              <div class="skill-chip">
+                <i class="fa-brands fa-flutter chip-icon flutter-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">Flutter</span>
+                  <span class="chip-level">Cross-Platform Core</span>
+                </div>
+              </div>
+              <div class="skill-chip">
+                <i class="fa-solid fa-code chip-icon dart-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">Dart</span>
+                  <span class="chip-level">Language Mastery</span>
+                </div>
+              </div>
+              <div class="skill-chip">
+                <i class="fa-brands fa-android chip-icon android-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">Android Development</span>
+                  <span class="chip-level">Native & Hybrid</span>
+                </div>
+              </div>
+              <div class="skill-chip">
+                <i class="fa-brands fa-apple chip-icon apple-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">iOS Development</span>
+                  <span class="chip-level">Cross-Platform</span>
+                </div>
+              </div>
+              <div class="skill-chip">
+                <i class="fa-solid fa-cubes chip-icon bloc-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">BLoC State Management</span>
+                  <span class="chip-level">Clean Architecture</span>
+                </div>
+              </div>
+              <div class="skill-chip">
+                <i class="fa-solid fa-palette chip-icon ui-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">UI/UX Development</span>
+                  <span class="chip-level">Pixel-Perfect Layouts</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend, Cloud & APIs -->
+          <div class="skill-category-card" data-category="backend">
+            <div class="cat-header">
+              <i class="fa-solid fa-cloud"></i>
+              <h3>Backend & Data Persistence</h3>
+            </div>
+            <div class="skill-chips">
+              <div class="skill-chip">
+                <i class="fa-solid fa-fire chip-icon firebase-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">Cloud Firestore</span>
+                  <span class="chip-level">Real-Time NoSQL</span>
+                </div>
+              </div>
+              <div class="skill-chip">
+                <i class="fa-solid fa-bell chip-icon fcm-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">Firebase FCM</span>
+                  <span class="chip-level">Push Notifications</span>
+                </div>
+              </div>
+              <div class="skill-chip">
+                <i class="fa-solid fa-chart-pie chip-icon analytics-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">Firebase Analytics</span>
+                  <span class="chip-level">User Insights</span>
+                </div>
+              </div>
+              <div class="skill-chip">
+                <i class="fa-solid fa-bug-slash chip-icon crashlytics-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">Crashlytics</span>
+                  <span class="chip-level">Crash Reporting</span>
+                </div>
+              </div>
+              <div class="skill-chip">
+                <i class="fa-solid fa-network-wired chip-icon api-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">REST API Integration</span>
+                  <span class="chip-level">Async HTTP Services</span>
+                </div>
+              </div>
+              <div class="skill-chip">
+                <i class="fa-solid fa-database chip-icon sqlite-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">SQLite & Offline Storage</span>
+                  <span class="chip-level">Local Caching</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Store Deployment & Monetization -->
+          <div class="skill-category-card" data-category="deploy">
+            <div class="cat-header">
+              <i class="fa-solid fa-rocket"></i>
+              <h3>Deployment & Monetization</h3>
+            </div>
+            <div class="skill-chips">
+              <div class="skill-chip">
+                <i class="fa-brands fa-app-store-ios chip-icon apple-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">App Store Connect</span>
+                  <span class="chip-level">iOS Uploading & Review</span>
+                </div>
+              </div>
+              <div class="skill-chip">
+                <i class="fa-brands fa-google-play chip-icon play-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">Google Play Console</span>
+                  <span class="chip-level">Android Release Tracks</span>
+                </div>
+              </div>
+              <div class="skill-chip">
+                <i class="fa-solid fa-plane-departure chip-icon testflight-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">TestFlight Beta Testing</span>
+                  <span class="chip-level">Internal & External QA</span>
+                </div>
+              </div>
+              <div class="skill-chip">
+                <i class="fa-solid fa-rectangle-ad chip-icon admob-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">Google Mobile Ads (AdMob)</span>
+                  <span class="chip-level">Monetization & Ad Units</span>
+                </div>
+              </div>
+              <div class="skill-chip">
+                <i class="fa-solid fa-arrows-rotate chip-icon sync-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">Background Services</span>
+                  <span class="chip-level">Audio, Tasks & Alarms</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools & Ecosystem -->
+          <div class="skill-category-card" data-category="tools">
+            <div class="cat-header">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              <h3>Dev Tools & Workflows</h3>
+            </div>
+            <div class="skill-chips">
+              <div class="skill-chip">
+                <i class="fa-solid fa-laptop-code chip-icon studio-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">Android Studio</span>
+                  <span class="chip-level">Profiling & Debugging</span>
+                </div>
+              </div>
+              <div class="skill-chip">
+                <i class="fa-brands fa-apple chip-icon xcode-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">Xcode</span>
+                  <span class="chip-level">iOS Builds & Signing</span>
+                </div>
+              </div>
+              <div class="skill-chip">
+                <i class="fa-brands fa-git-alt chip-icon git-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">Git & Version Control</span>
+                  <span class="chip-level">Branching & Releases</span>
+                </div>
+              </div>
+              <div class="skill-chip">
+                <i class="fa-brands fa-github chip-icon gh-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">GitHub & GitLab</span>
+                  <span class="chip-level">CI/CD & Collaboration</span>
+                </div>
+              </div>
+              <div class="skill-chip">
+                <i class="fa-solid fa-cube chip-icon gradle-color"></i>
+                <div class="chip-info">
+                  <span class="chip-name">Gradle & SDK Tooling</span>
+                  <span class="chip-level">Build Config & Flavors</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECT SECTION: StarFomo ONLY -->
+    <section class="projects-section section-padding" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-star"></i> Featured Application</span>
+          <h2 class="section-title">Featured <span class="text-gradient">Project</span></h2>
+          <p class="section-subtitle">Real-world cross-platform application engineered with Flutter, BLoC architecture, and released on official stores.</p>
+        </div>
+
+        <div class="projects-grid single-project-view">
+          <!-- StarFomo Project Card -->
+          <article class="project-card featured-project">
+            <div class="project-preview-side">
+              <div class="phone-mockup">
+                <div class="phone-speaker"></div>
+                <div class="phone-screen screen-starfomo">
+                  <div class="mockup-header">
+                    <div class="mockup-logo"><i class="fa-solid fa-star"></i> StarFomo</div>
+                    <div class="mockup-bell"><i class="fa-solid fa-bell"></i></div>
+                  </div>
+                  <div class="mockup-banner">
+                    <span>✨ Realtime Updates</span>
+                    <h4>Trending Discoveries</h4>
+                  </div>
+                  <div class="mockup-list">
+                    <div class="mockup-item">
+                      <div class="mock-thumb"></div>
+                      <div class="mock-lines"><div class="line w-80"></div><div class="line w-50"></div></div>
+                    </div>
+                    <div class="mockup-item">
+                      <div class="mock-thumb"></div>
+                      <div class="mock-lines"><div class="line w-70"></div><div class="line w-40"></div></div>
+                    </div>
+                    <div class="mockup-item">
+                      <div class="mock-thumb"></div>
+                      <div class="mock-lines"><div class="line w-90"></div><div class="line w-60"></div></div>
+                    </div>
+                  </div>
+                  <div class="mockup-nav">
+                    <i class="fa-solid fa-house active"></i>
+                    <i class="fa-solid fa-compass"></i>
+                    <i class="fa-solid fa-bookmark"></i>
+                    <i class="fa-solid fa-user"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details-side">
+              <div class="project-badges-row">
+                <span class="store-badge app-store"><i class="fa-brands fa-apple"></i> Apple App Store</span>
+                <span class="store-badge play-store"><i class="fa-brands fa-google-play"></i> Google Play</span>
+                <span class="badge-featured">Live Production App</span>
+              </div>
+
+              <h3 class="project-title">StarFomo</h3>
+              <p class="project-headline">Cross-Platform Realtime Mobile Application</p>
+
+              <p class="project-desc">
+                Engineered feature-rich cross-platform mobile application utilizing clean BLoC architecture for predictable state management and high responsiveness. Leveraged Cloud Firestore for dynamic real-time data streaming and enabled intelligent FCM push notifications with robust token lifecycle management.
+              </p>
+
+              <div class="project-highlights">
+                <h4>Key Implementation Highlights:</h4>
+                <ul>
+                  <li><i class="fa-solid fa-check"></i> Engineered application features using <strong>BLoC architecture</strong> for modular, reactive state management.</li>
+                  <li><i class="fa-solid fa-check"></i> Leveraged <strong>Cloud Firestore</strong> for real-time data management and live updates.</li>
+                  <li><i class="fa-solid fa-check"></i> Enabled <strong>FCM push notifications</strong> with comprehensive device token lifecycle management.</li>
+                  <li><i class="fa-solid fa-check"></i> Integrated <strong>Firebase Analytics</strong>, <strong>Crashlytics</strong>, and <strong>Google Mobile Ads (AdMob)</strong>.</li>
+                  <li><i class="fa-solid fa-check"></i> Released and deployed the application on the <strong>Apple App Store & Google Play Store</strong>.</li>
+                </ul>
+              </div>
+
+              <div class="tech-stack-tags">
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">Dart</span>
+                <span class="tech-tag">BLoC</span>
+                <span class="tech-tag">Cloud Firestore</span>
+                <span class="tech-tag">Firebase FCM</span>
+                <span class="tech-tag">Firebase Analytics</span>
+                <span class="tech-tag">Crashlytics</span>
+                <span class="tech-tag">Google Mobile Ads (AdMob)</span>
+                <span class="tech-tag">Apple App Store</span>
+                <span class="tech-tag">Google Play Store</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="experience-section section-padding" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-briefcase"></i> Track Record</span>
+          <h2 class="section-title">Work <span class="text-gradient">Experience</span></h2>
+          <p class="section-subtitle">Professional experience developing cross-platform mobile solutions in industry environments.</p>
+        </div>
+
+        <div class="timeline-container">
+          <div class="timeline-item active-exp">
+            <div class="timeline-dot">
+              <i class="fa-brands fa-flutter"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="exp-header">
+                <div class="exp-role-title">
+                  <h3>Flutter Developer Intern</h3>
+                  <h4 class="company-name"><i class="fa-solid fa-building"></i> Koolmind Technolab LLP</h4>
+                </div>
+                <div class="exp-badge-duration">
+                  <span class="duration"><i class="fa-regular fa-calendar"></i> January, 2026 – June, 2026</span>
+                  <span class="type-pill">6 Months Internship</span>
+                </div>
+              </div>
+
+              <p class="exp-summary">
+                Contributed to the full development lifecycle of production-grade cross-platform mobile applications for Android & iOS.
+              </p>
+
+              <div class="exp-bullet-points">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Delivered cross-platform Flutter applications with <strong>BLoC architecture</strong> for clean code and reactive state management.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Integrated comprehensive <strong>Firebase Services</strong> including Cloud Firestore, FCM, Firebase Analytics, and Crashlytics.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Implemented <strong>Google AdMob</strong> monetization, background audio services, offline storage, and Git workflows.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Successfully built, tested, and published applications on the <strong>Apple App Store & Google Play Store</strong>.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="exp-tech-tags">
+                <span>Flutter</span>
+                <span>Dart</span>
+                <span>BLoC</span>
+                <span>Firebase (Firestore, FCM, Crashlytics)</span>
+                <span>AdMob</span>
+                <span>Offline Storage</span>
+                <span>Apple App Store</span>
+                <span>Google Play Store</span>
+                <span>Git</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="education-section section-padding" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Academics</span>
+          <h2 class="section-title">Educational <span class="text-gradient">Background</span></h2>
+          <p class="section-subtitle">Formal training in Web and Mobile Software Development from Gujarat University.</p>
+        </div>
+
+        <div class="education-grid">
+          <!-- Degree 1 -->
+          <div class="edu-card">
+            <div class="edu-icon"><i class="fa-solid fa-award"></i></div>
+            <div class="edu-years"><i class="fa-regular fa-calendar-days"></i> 2025 – 2027</div>
+            <h3 class="edu-degree">M.Sc. IT Software Development</h3>
+            <span class="edu-spec">Specialization: Web + Mobile</span>
+            <h4 class="edu-institute"><i class="fa-solid fa-university"></i> Gujarat University</h4>
+            <p class="edu-location">Center For Professional Courses</p>
+            <div class="edu-features">
+              <span class="edu-pill"><i class="fa-solid fa-check"></i> Mobile Application Architecture</span>
+              <span class="edu-pill"><i class="fa-solid fa-check"></i> Advanced Cross-Platform Systems</span>
+              <span class="edu-pill"><i class="fa-solid fa-check"></i> Cloud & Distributed Computing</span>
+            </div>
+          </div>
+
+          <!-- Degree 2 -->
+          <div class="edu-card">
+            <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="edu-years"><i class="fa-regular fa-calendar-days"></i> 2022 – 2025</div>
+            <h3 class="edu-degree">B.Sc. IT Software Development</h3>
+            <span class="edu-spec">Specialization: Web + Mobile</span>
+            <h4 class="edu-institute"><i class="fa-solid fa-university"></i> Gujarat University</h4>
+            <p class="edu-location">Centre For Professional Courses</p>
+            <div class="edu-features">
+              <span class="edu-pill"><i class="fa-solid fa-check"></i> Object-Oriented Programming (OOP)</span>
+              <span class="edu-pill"><i class="fa-solid fa-check"></i> Data Structures & Algorithms</span>
+              <span class="edu-pill"><i class="fa-solid fa-check"></i> Database Management Systems (DBMS)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-paper-plane"></i> Get In Touch</span>
+          <h2 class="section-title">Let's Build Something <span class="text-gradient">Remarkable</span></h2>
+          <p class="section-subtitle">Interested in hiring for a Flutter developer role, collaborating, or discussing mobile application engineering? Reach out today!</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Direct Info -->
+          <div class="contact-info-card">
+            <h3>Direct Contact Channels</h3>
+            <p>Feel free to connect via email, phone, or LinkedIn. I am actively available for Flutter developer positions, mobile software projects, and technical discussions.</p>
+
+            <div class="contact-channel-list">
+              <div class="channel-item">
+                <div class="channel-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="channel-content">
+                  <span class="channel-label">Email Address</span>
+                  <a href="mailto:desainitya8@gmail.com" class="channel-val">desainitya8@gmail.com</a>
+                </div>
+                <button class="action-copy copy-btn" data-copy="desainitya8@gmail.com" title="Copy email">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <div class="channel-item">
+                <div class="channel-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="channel-content">
+                  <span class="channel-label">Phone & WhatsApp</span>
+                  <a href="tel:+919313146671" class="channel-val">+91 9313146671</a>
+                </div>
+                <button class="action-copy copy-btn" data-copy="+919313146671" title="Copy phone number">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <div class="channel-item">
+                <div class="channel-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="channel-content">
+                  <span class="channel-label">Location</span>
+                  <span class="channel-val">Gujarat, India</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-connect-box">
+              <h4>Professional Profiles</h4>
+              <div class="social-links">
+                <a href="mailto:desainitya8@gmail.com" class="social-btn" aria-label="Send direct email">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>Email</span>
+                </a>
+                <a href="tel:+919313146671" class="social-btn" aria-label="Call direct">
+                  <i class="fa-solid fa-phone"></i>
+                  <span>Call</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Profile">
+                  <i class="fa-brands fa-linkedin"></i>
+                  <span>LinkedIn</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-card">
+            <h3>Send a Message</h3>
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="senderName"><i class="fa-regular fa-user"></i> Your Name</label>
+                <input type="text" id="senderName" name="name" placeholder="e.g. Alex Johnson" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderEmail"><i class="fa-regular fa-envelope"></i> Your Email</label>
+                <input type="email" id="senderEmail" name="email" placeholder="alex@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderSubject"><i class="fa-solid fa-heading"></i> Subject</label>
+                <input type="text" id="senderSubject" name="subject" placeholder="Flutter Developer Opportunity / Inquiry" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderMessage"><i class="fa-regular fa-comment-dots"></i> Message</label>
+                <textarea id="senderMessage" name="message" rows="4" placeholder="Hello Nitya, I would love to connect regarding..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit-btn">
+                <span>Send Message</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+
+              <div class="form-response" id="formResponse"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#hero" class="brand-logo" aria-label="Desai Nitya - Flutter Engineer">
+          <div class="brand-emblem">
+            <span class="emblem-initials">ND</span>
+            <span class="emblem-dot"></span>
+          </div>
+          <div class="brand-titles">
+            <span class="brand-name">Desai <span class="brand-gradient">Nitya</span></span>
+            <span class="brand-tagline"><i class="fa-brands fa-flutter"></i> Mobile Engineer</span>
+          </div>
+        </a>
+        <p>Crafting performant cross-platform mobile experiences with Flutter, Dart & BLoC.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Project</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Desai Nitya. All rights reserved.</p>
+        <a href="#hero" class="back-to-top" aria-label="Back to top">
+          <i class="fa-solid fa-chevron-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-notification" id="toastNotification">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="toastMsg">Copied to clipboard!</span>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
